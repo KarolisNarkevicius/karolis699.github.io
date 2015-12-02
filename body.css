@@ -9,3 +9,28 @@ body {
 	background: black;
 	color:white;
 }
+
+.hamburger-demo {
+	position:fixed;
+	top:50px;
+	left:50px;
+}
+
+.header {
+	font-size: 36px;
+	margin-bottom:15px;
+}
+
+.enclosure::after {
+	content:"";
+	clear:both;
+}
+.hamburger-arrow {
+	float:left;
+}
+.click-it {
+	line-height: 28px;
+	height:28px;
+	margin-left:20px;
+	float:left;
+}

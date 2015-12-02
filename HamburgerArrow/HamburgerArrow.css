@@ -1,10 +1,6 @@
 .hamburger-arrow {
-  position: fixed;
-  top: 100px;
-  left: 600px;
   height: 28px;
   width: 48px;
-  background: black;
   cursor: pointer;
   transition-property: all;
   transition-duration: 0s;

@@ -2,33 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Some shit</title>
+	<title>Demo page</title>
 
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="HamburgerArrow/HamburgerArrow.css">
-	<link rel="stylesheet" href="xtext/xtext.css">
 	<link rel="stylesheet" href="body.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="HamburgerArrow/HamburgerArrow.js"></script>
-	<script src="xtext/xtext.js"></script>
 </head>
 <body>
-	<!--<div class="max-scroll"></div>-->
-	<div class="hamburger-icon"></div>
-
-	<div class="x-text" x-content="Hello world!">
-		<div class="x-container">
-			<div class="x-line x-line1"></div>
-			<div class="x-content"></div>
-			<div class="x-line x-line2"></div>
+	<div class="hamburger-demo">
+		<div class="header">Hamburger arrow</div>
+		<div class="enclosure">
+			<div class="hamburger-icon"></div>
+			<div class="click-it"><i class="fa fa-arrow-left"></i>Click it</div>
 		</div>
 	</div>
-
-
 	<script>
 		$('.hamburger-icon').hamburgerarrow();
-		$('.x-text').xtext();
 	</script>
 </body>
 </html>
